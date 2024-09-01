@@ -1,0 +1,84 @@
+var _____WB$wombat$assign$function_____ = function(name) {return (self._wb_wombat && self._wb_wombat.local_init && self._wb_wombat.local_init(name)) || self[name]; };
+if (!self.__WB_pmw) { self.__WB_pmw = function(obj) { this.__WB_source = obj; return this; } }
+{
+  let window = _____WB$wombat$assign$function_____("window");
+  let self = _____WB$wombat$assign$function_____("self");
+  let document = _____WB$wombat$assign$function_____("document");
+  let location = _____WB$wombat$assign$function_____("location");
+  let top = _____WB$wombat$assign$function_____("top");
+  let parent = _____WB$wombat$assign$function_____("parent");
+  let frames = _____WB$wombat$assign$function_____("frames");
+  let opener = _____WB$wombat$assign$function_____("opener");
+
+
+function main()
+{
+	local i, k;
+
+	for (i=0; i<5; i++) {
+		if (i == 3)
+			continue;
+		$uf1(i);
+	}
+
+	do {
+		$uf2(i);
+	} while (--i > 0);
+
+	k = i;
+	while (i < 20) {
+		i++;
+		if (i % 2 == 0)
+			continue;
+		$uf3(i, k++);
+	}
+
+	while (i++ < 50) {
+		if (i == 23)
+			break;
+		$uf4(i);
+	}
+
+	for (k=i-3;; k++) {
+		$uf5(k, i+k);
+		if (i+k == 50)
+			break;
+		if ((i+k) % 2 == 0)
+			continue;
+		$uf6(i+k);
+	}
+
+	for (i=0; i<5; i++) {
+		if (i % 2 != 0)
+			goto number_is_odd;
+		$uf7(false, i);
+		if (0) {
+number_is_odd:
+			$uf7(true, i);
+		}
+	}
+}
+
+
+
+}
+/*
+     FILE ARCHIVED ON 08:25:42 Jan 15, 2020 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 03:09:35 Sep 01, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.494
+  exclusion.robots: 0.02
+  exclusion.robots.policy: 0.01
+  esindex: 0.008
+  cdx.remote: 30.91
+  LoadShardBlock: 114.807 (3)
+  PetaboxLoader3.datanode: 109.035 (4)
+  PetaboxLoader3.resolve: 89.607 (2)
+  load_resource: 111.201
+*/
